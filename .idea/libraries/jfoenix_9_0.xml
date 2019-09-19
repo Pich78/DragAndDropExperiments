@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="jfoenix-9.0">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../JFoenixLibs/jfoenix-9.0.9" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../JFoenixLibs/jfoenix-9.0.9" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../../JFoenixLibs/jfoenix-9.0.9" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../JFoenixLibs/jfoenix-9.0.9" recursive="false" type="SOURCES" />
+  </library>
+</component>
