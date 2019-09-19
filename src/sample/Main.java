@@ -21,24 +21,13 @@ public class Main extends Application {
         VBox list1 = new VBox();
         VBox list2 = new VBox();
 
-        Button button11 = new Button("11");
-        button11.setMinSize(100,30);
-
-        Button button12 = new Button("12");
-        button12.setMinSize(100,30);
-
-        Button button13 = new Button("13");
-        button13.setMinSize(100,30);
-
-        Button button21 = new Button("21");
-        button21.setMinSize(100,30);
-
-        Button button22 = new Button("22");
-        button22.setMinSize(100,30);
-
-        Button button23 = new Button("23");
-        button23.setMinSize(100,30);
-
+        DraggableButton button11 = new DraggableButton("11");
+        DraggableButton button12 = new DraggableButton("12");
+        DraggableButton button13 = new DraggableButton("13");
+        DraggableButton button21 = new DraggableButton("21");
+        DraggableButton button22 = new DraggableButton("22");
+        DraggableButton button23 = new DraggableButton("23");
+        
         list1.getChildren().addAll(button11,button12,button13);
         list2.getChildren().addAll(button21,button22,button23);
 
@@ -49,6 +38,9 @@ public class Main extends Application {
         primaryStage.show();
     }
 
+    private void print(String msg) {
+        System.out.println(msg);
+    }
 
     public static void main(String[] args) {
         launch(args);
