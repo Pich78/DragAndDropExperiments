@@ -21,9 +21,13 @@ public class DraggableButton extends Button {
 
     void MousePressedAction(MouseEvent e) {
         print("Source: " + ((Button)e.getSource()).getText() + " pressed");
+        // Generate drag detect event after the current mouse pressed event
+        e.setDragDetect(true);
     }
     void MouseDraggedAction(MouseEvent e) {
         print("Source: " + ((Button)e.getSource()).getText() + " dragged");
+        // Suppress the drag detected default event generation after mouse dragged
+        e.setDragDetect(false);
     }
     void MouseDragDetectedAction(MouseEvent e) {
         print("Source: " + ((Button)e.getSource()).getText() + " drag detected");

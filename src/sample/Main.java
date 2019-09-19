@@ -27,7 +27,7 @@ public class Main extends Application {
         DraggableButton button21 = new DraggableButton("21");
         DraggableButton button22 = new DraggableButton("22");
         DraggableButton button23 = new DraggableButton("23");
-        
+
         list1.getChildren().addAll(button11,button12,button13);
         list2.getChildren().addAll(button21,button22,button23);
 
